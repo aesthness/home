@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gucci</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid black;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo img {
+      width: 150px;
+      height: auto;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin-right: 50px;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      flex-grow: 1;
+      max-width: 600px;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 20px;
+      padding: 100px 20px 20px;
+    }
+
+    footer {
+      background-color: #000;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    footer li {
+      margin: 0 15px;
+    }
+
+    .product {
+      position: relative;
+      text-align: center;
+    }
+    
+    .product img {
+      width: 100%;
+      height: auto;
+      max-width:300px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    #hanni {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      text-align: center;
+    }
+
+    .hanni img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 100px;
+    }
+
+    .hanni-text {
+      position: absolute;
+      color: rgba(255, 255, 255, 0.9);
+      font-family: helvetica, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      left: 50%;
+      top: 100%;
+      margin-left: -13%;
+      margin-top: -8%;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .text {
+      position: absolute;
+      color: rgba(255, 255, 255, 0.9);
+      font-family: helvetica, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      left: 50%;
+      top: 100%;
+      margin-left: -15%;
+      margin-top: -30%;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#hanni">
+        <img src="https://i.imgur.com/t1jZGvy.png" alt="꾸찌로고">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://jsbin.com/jocafil/2">홈</a></li>
+        <li><a href="https://jsbin.com/gicixoq/1">신제품</a></li>
+        <li><a href="https://jsbin.com/xifewox/1">여성</a></li>
+        <li><a href="https://jsbin.com/noyemar/1/">남성</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="hanni">
+    <div class="hanni-text">
+      <p>
+        구찌 홀스 아이콘과 하니
+      </p>
+    </div>
+    <div class='hanni'>
+      <img src="https://i.imgur.com/Tk8OKu5.png">
+    </div>
+  </div>
+  <main>
+    <div class="product">
+      <a href="https://jsbin.com/gicixoq/1" target="_blank">
+        <img src="https://i.imgur.com/UNuVQBl.png" alt="신제품">
+      </a>
+      <div class="text">
+        <h2>신제품</h2>
+      </div>
+    </div>
+    <div class="product">
+      <a href="https://jsbin.com/xifewox/1" target="_blank">
+        <img src="https://i.imgur.com/H2JWKxY.png" alt="신제품">
+      </a>
+      <div class="text">
+        <h2>여성</h2>
+      </div>
+    </div>
+    <div class="product">
+      <a href="https://jsbin.com/noyemar/1/" target="_blank">
+        <img src="https://i.imgur.com/b0KkCkH.png" alt="신제품">
+      </a>
+      <div class="text">
+        <h2>남성</h2>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>2024 구찌 홈페이지</p>
+    <ul>
+      <li>홈: 김연욱</li>
+      <li>남성: 김지우</li>
+      <li>여성: 신가온</li>
+      <li>신제품: 정준호</li>
+    </ul>
+  </footer>
+</body>
+</html>
